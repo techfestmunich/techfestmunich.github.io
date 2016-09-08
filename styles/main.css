@@ -91,7 +91,7 @@ html, body {
   color: inherit;
 }
 .mdl-demo .mdl-card__actions a {
-  color: #00BCD4;
+  /*color: #00BCD4;*/
   margin: 0;
 }
 .mdl-demo .mdl-card__actions a:hover,
@@ -301,6 +301,10 @@ html, body {
   text-align: left;
 }
 
+table {
+  width: 100%;
+}
+
 /* Scrolling on small screens */
 .mdl-layout.is-small-screen .mdl-data-table {
   display: block;
@@ -311,4 +315,38 @@ html, body {
 .mdl-layout.is-small-screen .table-container {
   margin: 10px 0px !important;
   width: 100%;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+}
+
+
+.food {
+  background-color: lightgreen;
+}
+
+.work {
+  background-color: lightblue;
+}
+
+.workshop {
+  background-color: lightpink;
+}
+
+.deadline {
+  background-color: lightcoral;
+}
+
+.small {
+  font-size: smaller;
+}
+
+a {
+  color: black;
+}
+
+.mdl-card-full .mdl-card__actions {
+  text-align: left;
 }
